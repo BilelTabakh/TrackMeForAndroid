@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color of ActionBar -->
+    <color name="actionBarStatistique">#691b9a</color>
+    <color name="actionBarPlanning">#00695b</color>
+    <color name="actionBarMusique">#f5005a</color>
+    <color name="actionBarHome">#283693</color>
+     <color name="actionBarInfos">#607d8b</color>
+    <color name="persoGrey">#424242</color>
+    <color name="persoWhite">#fff</color>
+    <color name="list_item_title">#424242</color>
+    <color name="list_background">#ECEFF1</color>
+    <color name="list_background_pressed">#E0E0E0</color>
+    <color name="list_divider">#ECEFF1</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="pompes">#ff9800</color>
+
+    <!-- Parameters WillialChart -->
+    <color name="axis">#CE93D8</color>
+    <color name="grid">#b0bec5</color>
+    <color name="text_view">#455a64</color>
+    <color name="button_pressed">#607d8b</color>
+    <color name="button_disabled">#b0bec5</color>
+    <color name="button_default">#37474f</color>
+    <color name="app_background">#e0e0e0</color>
+    <color name="actionbar">#607d8b</color>
+    <color name="traitLineChart">#BA68C8</color>
+    <color name="dotsLineChart">#7B1FA2</color>
+    <color name="dotsStrokeLineChart">#E91E63</color>
+    <color name="traitBarChart">#BA68C8</color>
+    
+    <!-- Color button action -->
+	<color name="buttonActionAdd">#00ABA9</color>
+	
+	<color name="buttonNext">#a5d6a7</color>
+	
+	
+	
+	
+</resources>

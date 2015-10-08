@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrackME</string>
+    <string name="app_name_main">TrackME</string>
+    <string name="app_name_seance">حصة</string>
+    <string name="app_name_planning">تنظيم حصة</string>
+    <string name="app_name_musique">موسيقى</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_overflow">overflow</string>
+    <string name="action_music_subMenu">موسيقى</string>
+    <string name="action_setting_subMenu">الإعدادات</string>
+    <string name="action_previous_item">السابق</string>
+    <string name="action_add_music">إضافة أغاني</string>
+    <string name="action_add_seance">بدء حصة</string>
+    <string name="duration_label">مدة</string>
+    <string name="speed_label">سرعة</string>
+    <string name="distance_label">مسافة</string>
+    <string name="colories_label">السعرات الحرارية</string>
+    <string name="miles_label">ميل</string>
+    <string name="kcal_label">كيلو كالوري</string>
+    <string name="minPerMile_label">دقيقة/ميل</string>
+    <string name="description">كتابة نص</string>
+    <string name="app_name_statistque">إحصائيات</string>
+    <string name="stopBtn">توقف</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="alertSeanceFinie">هاي أيها البطل، رقمك القياسي الجديد قد وقع تسجيله ،هل تريد أن تنشره؟</string>
+    <string name="bienJoue">أحسنت صنعاً</string>
+    <string name="partageParcours">أنشر رقم قياسك الجديد</string>
+    <string name="beginSeance">لكي تبدأ حصة</string>
+    <string name="playingMusic">لتشغيل موسيقى</string>
+    <string name="alertGPS">يبدو أن جبس هاتفك مغلق ، هل تريد تشغيله ؟</string>
+    <string name="deletePompes">هل تريد إعادة تعيين عدد تمرين الضغط إلى الصفر ؟</string>
+    <string name="TitredeletePompes">إعادة تعيين ؟</string>
+    <string name="toAddPlanning">لتخطيط حصة</string>
+    <string name="alertAlarmConfirmation">يرجى تأكيد</string>
+    <string name="cancelAlarm">إلغاء</string>
+    <string name="savePlanning">لحفض الحصة المبرمجة </string>
+    <string name="InfoPompes">ضع هاتفك على الأرض أمام وجهك وقم بتمرين الضغط</string>
+    <string name="TitrePompes">التعليمات</string>
+    <string name="DeletePlanning">حذف هذا التنبيه ؟</string>
+    <string name="erreurInfoPoidsVide">لم تقم بتحديد المعلومات الشخصية الخاصة بك، يرجى التحقق من ذلك</string>
+    <string name="alertNonEnregistree">لم يتم حفظ طريقك، إضغط على زر الوقف للقيام بذلك، هل تريد حقا الخروج دون حفظ؟</string>
+    <string name="quitWithoutSave">الخروج دون الحفظr</string>
+    
+     <string name="dernierParcourHome">آخر مشوار لك</string>
+     
+    
+    <string name="S">ا</string>
+    <string name="M">ا</string>
+    <string name="T">ث</string>
+    <string name="W">ا</string>
+    <string name="Th">خ</string>
+    <string name="F">ج</string>
+    <string name="Sut">س</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>الصفحة الرئيسية</item>
+        <item>حصة</item>
+        <item>تخطيط حصة</item>
+        <item>إحصائيات</item>
+        <item>Pompes</item>
+        <item>معلوماتي</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_seance</item>
+        <item>@drawable/ic_planning</item>
+        <item>@drawable/ic_stats</item>
+        <item>@drawable/ic_pompe</item>
+        <item>@drawable/ic_infos</item>
+    </array>
+
+    <!-- Parametre Alaram -->
+    <string name="details_alarm_name">وصف</string>
+    <string name="details_repeat_weekly">كرر كل أسبوع</string>
+    <string name="details_sunday">الأحد</string>
+    <string name="details_monday">الاثنين</string>
+    <string name="details_tuesday">الثلاثاء</string>
+    <string name="details_wednesday">الأربعاء</string>
+    <string name="details_thursday">الخميس</string>
+    <string name="details_friday">الجمعة</string>
+    <string name="details_saturday">السبت</string>
+    <string name="details_alarm_tone">الرنة</string>
+    <string name="details_alarm_tone_default">اختار نغمة</string>
+    <string name="rejeter">إنهاء</string>
+    <string name="pompesRe">Pompes réalisées</string>
+    <string name="bestScore">Best Score : 0</string>
+    <string name="resetPompes">Reset</string>
+    <string name="noParcours">ليس هنالك حصة</string>
+    <string name="TailleIMC">الطول(سم)</string>
+    <string name="PoidsIMC">الوزن (كلغ)</string>
+    <string name="ModifierBtnIMC">تغيير</string>
+    <string name="IMC">IMC</string>
+
+</resources>

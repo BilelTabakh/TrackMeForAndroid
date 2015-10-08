@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.achraf.mobile.maps.MainActivity" >
+
+    <item
+        android:id="@+id/menu_music"
+        android:icon="@drawable/ic_action_ic_music_action_bar"
+        android:showAsAction="always"
+        android:title="@string/action_music_subMenu">
+       
+    </item>
+      
+
+</menu>

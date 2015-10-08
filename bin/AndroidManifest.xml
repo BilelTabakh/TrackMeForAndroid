@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andy.trackme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <!-- Music Player uses permission -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Alaram  uses permission -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.android.map.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.android.map.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_trackme"
+        android:label="@string/app_name_main"
+        android:theme="@style/Theme.Example" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB4gLiOQdYw5FwTK88bF2PY9Tx0DN7pnSk" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- Activities -->
+        <activity
+            android:name="com.andy.trackme.MainActivity"
+            android:label="@string/app_name_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.andy.trackme.SeanceActivity"
+            android:icon="@drawable/ic_action_previous_item"
+            android:label="@string/app_name_seance"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.andy.trackme.TutoActivity"
+            android:icon="@drawable/ic_action_previous_item"
+            android:label="@string/app_name_seance"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.andy.trackme.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:allowBackup="true"
+            android:name="com.andy.trackme.MusiqueActivity"
+            android:icon="@drawable/ic_action_previous_item"
+            android:label="@string/app_name_musique"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Musique" >
+        </activity>
+        <!-- Alarm config -->
+        <activity
+            android:name="com.andy.trackme.AlarmListActivity"
+            android:icon="@drawable/ic_action_previous_item"
+            android:label="@string/app_name_planning"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Planning" >
+        </activity>
+        <activity
+            android:name="com.andy.trackme.AlarmScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Planning" />
+        <activity
+            android:name="com.andy.trackme.AlarmDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Planning" />
+
+        <service
+            android:name="com.andy.trackme.AlarmService"
+            android:enabled="true" />
+
+        <receiver android:name="com.andy.trackme.AlarmManagerHelper" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.andy.trackme.MainActivityDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.RoboDemo" />
+        <activity
+            android:name="com.andy.trackme.PlayListActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.andy.trackme.MusicService" />
+    </application>
+
+</manifest>

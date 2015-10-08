@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chart="http://schemas.android.com/apk/com.db.chart"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <com.db.chart.view.LineChartView
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        chart_axisBorderSpacing="0dp"
+        chart_axisColor="@color/axis"
+        chart_shadowColor="#80000000"
+        chart_shadowDy="1dp"
+        chart_shadowRadius="1dp"
+        chart_typeface="Roboto-Regular.ttf"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp" >
+    </com.db.chart.view.LineChartView>
+
+    <com.db.chart.view.BarChartView
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        chart_axisBorderSpacing="25dp"
+        chart_axisColor="#455a64"
+        chart_typeface="Roboto-Regular.ttf"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.17" >
+
+        <TextView
+            android:id="@+id/textDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/duration_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/persoGrey" />
+
+        <TextView
+            android:id="@+id/textSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/speed_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/persoGrey" />
+
+        <TextView
+            android:id="@+id/textDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="160dp"
+            android:text="@string/distance_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/persoGrey" />
+
+        <TextView
+            android:id="@+id/textCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="160dp"
+            android:text="@string/colories_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/persoGrey" />
+
+        <ImageButton
+            android:id="@+id/imageDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textDuration"
+            android:layout_toRightOf="@+id/textDistance"
+            android:background="@color/persoWhite"
+            android:src="@drawable/ic_action_time" />
+
+        <ImageButton
+            android:id="@+id/imageDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageDuration"
+            android:layout_alignTop="@+id/textDistance"
+            android:background="@color/persoWhite"
+            android:src="@drawable/ic_action_place" />
+
+        <ImageButton
+            android:id="@+id/imageCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textCalories"
+            android:layout_toRightOf="@+id/textCalories"
+            android:background="@color/persoWhite"
+            android:src="@drawable/ic_action_favorite" />
+
+        <ImageButton
+            android:id="@+id/imageSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textSpeed"
+            android:layout_toRightOf="@+id/textCalories"
+            android:background="@color/persoWhite"
+            android:src="@drawable/ic_action_time" />
+
+        <TextView
+            android:id="@+id/txtCaloriesStatistique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageSpeed"
+            android:layout_below="@+id/textCalories"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtSpeedStatistique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageSpeed"
+            android:layout_below="@+id/textSpeed"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtDurationStatistique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textDuration"
+            android:layout_below="@+id/textDuration"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/kcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtCaloriesStatistique"
+            android:layout_toRightOf="@+id/textSpeed"
+            android:text="@string/kcal_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/persoGrey" />
+
+        <TextView
+            android:id="@+id/txtDistanceStatistique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtCaloriesStatistique"
+            android:layout_alignBottom="@+id/txtCaloriesStatistique"
+            android:layout_alignLeft="@+id/textDistance"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackME</string>
+	<string name="app_name_main">TrackME</string>
+    <string name="app_name_seance">Séance</string>
+    <string name="app_name_planning">Planning</string>
+    <string name="app_name_musique">Musique</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_overflow">overflow</string>
+    <string name="action_music_subMenu">Musique</string>
+    <string name="action_setting_subMenu">Paramètres</string>
+    <string name="action_previous_item">Précédant</string>
+    <string name="action_add_music">Ajouter des musiques</string>
+    <string name="action_add_seance">Commencer un séance</string>
+    <string name="duration_label">Durée(min)</string>
+    <string name="speed_label">Vitesse(km/h)</string>
+    <string name="distance_label">Distance(m)</string>
+    <string name="colories_label">Calories(kcal)</string>
+    <string name="miles_label">miles</string>
+    <string name="kcal_label">kcal</string>
+    <string name="minPerMile_label">min/mile</string>
+    <string name="description">Ecrire un texte ...</string>
+    <string name="app_name_statistque">Statistiques</string>
+    <string name="stopBtn">Stop</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="alertSeanceFinie">Hé Champion , Ton parcours à été enregistré! partager le parcours?</string>
+    <string name="bienJoue">Bien joué!</string>
+    <string name="partageParcours">Partage ton parcours</string>
+    <string name="beginSeance">Pour commencer une séance</string>
+    <string name="playingMusic">Pour lancer de la musique</string>
+    <string name="alertGPS">Votre GPS semble être désactivé, voulez-vous l\'activer?</string>
+    <string name="deletePompes">Voulez vous réinitialiser le nombre de pompes à zéro ?</string>
+   	<string name="TitredeletePompes">Réinitialiser ?</string> 
+   	<string name="toAddPlanning">Pour ajouter un planning</string> 
+   	<string name="alertAlarmConfirmation">SVP confirmer</string>
+   	<string name="cancelAlarm">Annuler</string>
+   	<string name="savePlanning">Pour sauvegarder le planning</string>
+   	<string name="InfoPompes">Placez votre téléphone sur le sol en face de votre visage et faites vos pompes</string>
+   	<string name="TitrePompes">Instruction</string>
+   	<string name="DeletePlanning">Supprimer cette alerte ?</string>
+   	<string name="erreurInfoPoidsVide">Vous n\'avez pas spécifié vos informations personnelles veuillez les verifier</string>
+	<string name="alertNonEnregistree"> Votre parcours n\'a pas été enregistré, touchez \'Stop\' pour le faire,  voulez vous  vraiment sortir sans enregistrer ?</string>
+    <string name="quitWithoutSave">Quitter Sans Sauvegarder</string>
+    
+    <string name="dernierParcourHome">Votre dernier parcours</string>
+    
+	
+    <string name="S">D</string>
+    <string name="M">L</string>
+    <string name="T">M</string>
+    <string name="W">M</string>
+    <string name="Th">J</string>
+    <string name="F">V</string>
+    <string name="Sut">S</string>	
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Séance</item>
+        <item>Planning</item>
+        <item>Statistiques</item>
+        <item>Pompes</item>
+        <item>Mes infos</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_seance</item>
+        <item>@drawable/ic_planning</item>
+        <item>@drawable/ic_stats</item>
+        <item>@drawable/ic_pompe</item>
+        <item>@drawable/ic_infos</item>
+    </array>
+
+    <!-- Parametre Alaram -->
+    <string name="details_alarm_name">Descripion</string>
+    <string name="details_repeat_weekly">Répétez chaque semaine</string>
+    <string name="details_sunday">Dimanche</string>
+    <string name="details_monday">Lundi</string>
+    <string name="details_tuesday">Mardi</string>
+    <string name="details_wednesday">Mercredi</string>
+    <string name="details_thursday">Jeudi</string>
+    <string name="details_friday">Vendredi</string>
+    <string name="details_saturday">Samedi</string>
+    <string name="details_alarm_tone">Sonnerie</string>
+    <string name="details_alarm_tone_default">Sélectionnez une tonalité</string>
+    <string name="rejeter">Rejeter</string>
+    <string name="pompesRe">Pompes réalisées</string>
+    <string name="bestScore">Best Score : 0</string>
+    <string name="resetPompes">Reset</string>
+    <string name="noParcours">Aucun parcours</string>
+    <string name="TailleIMC">Taille(cm):</string>
+    <string name="PoidsIMC">Poids(kg):</string>
+    <string name="ModifierBtnIMC">Modifier</string>
+    <string name="IMC">IMC</string>
+
+</resources>
